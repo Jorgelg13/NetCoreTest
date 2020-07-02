@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0od4ofmXAHJFXumv2/tW0OTI/WWhIOom3poejuHcB4UDiKdleKAEeLcWhAqN6DDmAQgmHU48p3NUPJzvRe6gCQ==",
+  "dgSpecHash": "OOdWA4EMHKhio8T5JS2islqXCttTmrHHJpBMIahJUpWFRoGlc8+XvwDw4UXPtl49KCTIp9LLc1siwfVZxYejbA==",
   "success": true,
   "projectFilePath": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Dominio\\Dominio.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\A LIENWARE\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\A LIENWARE\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

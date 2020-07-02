@@ -1,6 +1,9 @@
 using System;
+using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
+using Aplicacion.ManejadorErrores;
+using FluentValidation;
 using MediatR;
 using Persistencia;
 
@@ -15,6 +18,16 @@ namespace Aplicacion.Cursos
             public DateTime ? FechaPublicacion {get; set;}
         }
 
+        public class Validaciones : AbstractValidator<EditarCurso>
+        {
+            public Validaciones()
+            {
+                RuleFor(x => x.Titulo).NotEmpty();
+                RuleFor(x => x.Descripcion).NotEmpty();
+                RuleFor(x => x.FechaPublicacion).NotEmpty();
+            }
+        }
+
         public class Manejador : IRequestHandler<EditarCurso>
         {
             private readonly CursosContext _context;
@@ -27,8 +40,9 @@ namespace Aplicacion.Cursos
             {
                var curso = await _context.Curso.FindAsync(request.CursoId);
                if(curso == null){
-                   throw new Exception("El curso ingresado no existe");
-               }
+                   // throw new Exception("No se pudo eliminar el curso");
+                   throw new ManejadorExepcion(HttpStatusCode.NotFound, new { mensaje = "No se encontro el curso"} );
+                }
               
               curso.Titulo = request.Titulo ?? curso.Titulo;
               curso.Descripcion = request.Descripcion ?? curso.Descripcion;

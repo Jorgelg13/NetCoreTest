@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "AWOUP2Cvcuk3ny0HH9Fq5hJoXjafrie2RK5vALMi+4dSy0LD0hZWMOIT7i6XLMpRySo/liWVxO2eTdDL2k7okA==",
+  "dgSpecHash": "2Ee0RvAbe0gO31lPMb3NxAVlrmB+8WYAX5cF/TIFNKMS1BxgXO6ljcbfUy0PYIZekIfKWXohFu+0vizWUmyQhQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\A LIENWARE\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
+    "C:\\Users\\A LIENWARE\\.nuget\\packages\\fluentvalidation.aspnetcore\\8.6.2\\fluentvalidation.aspnetcore.8.6.2.nupkg.sha512",
+    "C:\\Users\\A LIENWARE\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\8.6.2\\fluentvalidation.dependencyinjectionextensions.8.6.2.nupkg.sha512",
     "C:\\Users\\A LIENWARE\\.nuget\\packages\\mediatr\\8.0.0\\mediatr.8.0.0.nupkg.sha512",
     "C:\\Users\\A LIENWARE\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\8.0.0\\mediatr.extensions.microsoft.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\A LIENWARE\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
@@ -32,6 +35,7 @@
     "C:\\Users\\A LIENWARE\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\A LIENWARE\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\A LIENWARE\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
+    "C:\\Users\\A LIENWARE\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\A LIENWARE\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\A LIENWARE\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\A LIENWARE\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

@@ -1,0 +1,15 @@
+C:\Users\A LIENWARE\Desktop\Proyectos\Core\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.deps.json
+C:\Users\A LIENWARE\Desktop\Proyectos\Core\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.runtimeconfig.json
+C:\Users\A LIENWARE\Desktop\Proyectos\Core\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.runtimeconfig.dev.json
+C:\Users\A LIENWARE\Desktop\Proyectos\Core\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\A LIENWARE\Desktop\Proyectos\Core\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\A LIENWARE\Desktop\Proyectos\Core\Persistencia\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\A LIENWARE\Desktop\Proyectos\Core\Persistencia\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\A LIENWARE\Desktop\Proyectos\Core\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csprojAssemblyReference.cache
+C:\Users\A LIENWARE\Desktop\Proyectos\Core\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.AssemblyInfoInputs.cache
+C:\Users\A LIENWARE\Desktop\Proyectos\Core\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.AssemblyInfo.cs
+C:\Users\A LIENWARE\Desktop\Proyectos\Core\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\A LIENWARE\Desktop\Proyectos\Core\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csproj.CopyComplete
+C:\Users\A LIENWARE\Desktop\Proyectos\Core\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\A LIENWARE\Desktop\Proyectos\Core\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\A LIENWARE\Desktop\Proyectos\Core\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.genruntimeconfig.cache
