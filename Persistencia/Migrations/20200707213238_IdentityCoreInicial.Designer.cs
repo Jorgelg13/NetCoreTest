@@ -10,7 +10,7 @@ using Persistencia;
 namespace Persistencia.Migrations
 {
     [DbContext(typeof(CursosContext))]
-    [Migration("20200702013334_IdentityCoreInicial")]
+    [Migration("20200707213238_IdentityCoreInicial")]
     partial class IdentityCoreInicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
