@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "yiCsqETTsp+Ahkz0EcxD0a7BivhdOeBqoxArpfIl8WQ73RDXQvvqJvK6RAHiVoEOTp6JepscKzMH4soeWqqeBQ==",
+  "dgSpecHash": "tecg8EbHpl1FShyPDynJ8m0T4nsK/4Fh1f5+BXQ5ZTIXrseoYNMtev7rC9MS0lLg/JGKiTn5ETfqxo9OyFqVXg==",
   "success": true,
   "projectFilePath": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Persistencia\\Persistencia.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\A LIENWARE\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.5\\microsoft.aspnetcore.cryptography.internal.3.1.5.nupkg.sha512",
+    "C:\\Users\\A LIENWARE\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.5\\microsoft.aspnetcore.cryptography.keyderivation.3.1.5.nupkg.sha512",
+    "C:\\Users\\A LIENWARE\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\3.1.5\\microsoft.aspnetcore.identity.entityframeworkcore.3.1.5.nupkg.sha512",
     "C:\\Users\\A LIENWARE\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\A LIENWARE\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\A LIENWARE\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -22,6 +25,8 @@
     "C:\\Users\\A LIENWARE\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.5\\microsoft.extensions.configuration.binder.3.1.5.nupkg.sha512",
     "C:\\Users\\A LIENWARE\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.5\\microsoft.extensions.dependencyinjection.3.1.5.nupkg.sha512",
     "C:\\Users\\A LIENWARE\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.5\\microsoft.extensions.dependencyinjection.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\A LIENWARE\\.nuget\\packages\\microsoft.extensions.identity.core\\3.1.5\\microsoft.extensions.identity.core.3.1.5.nupkg.sha512",
+    "C:\\Users\\A LIENWARE\\.nuget\\packages\\microsoft.extensions.identity.stores\\3.1.5\\microsoft.extensions.identity.stores.3.1.5.nupkg.sha512",
     "C:\\Users\\A LIENWARE\\.nuget\\packages\\microsoft.extensions.logging\\3.1.5\\microsoft.extensions.logging.3.1.5.nupkg.sha512",
     "C:\\Users\\A LIENWARE\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.5\\microsoft.extensions.logging.abstractions.3.1.5.nupkg.sha512",
     "C:\\Users\\A LIENWARE\\.nuget\\packages\\microsoft.extensions.options\\3.1.5\\microsoft.extensions.options.3.1.5.nupkg.sha512",
