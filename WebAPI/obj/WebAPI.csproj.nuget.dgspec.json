@@ -210,14 +210,14 @@
         }
       }
     },
-    "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Seguridad\\Seguridad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\WebAPI\\WebAPI.csproj",
-        "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Seguridad\\Seguridad.csproj",
+        "projectName": "Seguridad",
+        "projectPath": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Seguridad\\Seguridad.csproj",
         "packagesPath": "C:\\Users\\A LIENWARE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Seguridad\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\A LIENWARE\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -248,6 +248,78 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\WebAPI\\WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\WebAPI\\WebAPI.csproj",
+        "projectName": "WebAPI",
+        "projectPath": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\A LIENWARE\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\A LIENWARE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Aplicacion\\Aplicacion.csproj": {
+                "projectPath": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Aplicacion\\Aplicacion.csproj"
+              },
+              "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Seguridad\\Seguridad.csproj": {
+                "projectPath": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Seguridad\\Seguridad.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"

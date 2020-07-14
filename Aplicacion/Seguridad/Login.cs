@@ -1,6 +1,7 @@
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
+using Aplicacion.Contratos;
 using Aplicacion.ManejadorErrores;
 using Dominio;
 using FluentValidation;
@@ -28,10 +29,12 @@ namespace Aplicacion.Seguridad
         {
             private readonly UserManager<Usuario> _userManager;
             private readonly SignInManager<Usuario> _signInManager;
-            public Manejador(UserManager<Usuario> userManager,SignInManager<Usuario> signInManager)
+            private readonly IJwtGenerador _jwtGenerator;
+            public Manejador(UserManager<Usuario> userManager,SignInManager<Usuario> signInManager, IJwtGenerador jwtGenerador)
             {
                 _userManager = userManager;
                 _signInManager = signInManager;
+                _jwtGenerator = jwtGenerador;
             }
 
             public async Task<UsuarioData> Handle(Ejecuta request, CancellationToken cancellationToken)
@@ -47,7 +50,7 @@ namespace Aplicacion.Seguridad
                if(resultado.Succeeded){
                    return new UsuarioData{
                        NombreCompleto = usuario.NombreCompleto,
-                       Token = "data del token",
+                       Token = _jwtGenerator.crearToken(usuario),
                        UserName = usuario.UserName,
                        Email = usuario.Email,
                        Imagen = null

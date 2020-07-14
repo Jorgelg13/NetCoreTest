@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 using Dominio;
 using Aplicacion.Cursos;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WebAPI.Controllers
 {

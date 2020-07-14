@@ -2,9 +2,11 @@ using System.Threading.Tasks;
 using Dominio;
 using Microsoft.AspNetCore.Mvc;
 using Aplicacion.Seguridad;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WebAPI.Controllers
 {
+    [AllowAnonymous]
     public class UsuarioController : MiControllerBase
     {
         [HttpPost("login")]
