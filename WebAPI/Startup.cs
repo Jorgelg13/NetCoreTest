@@ -75,6 +75,8 @@ namespace WebAPI
             });
             //inyectando interfaz y clase para seguridad
             services.AddScoped<IJwtGenerador,JwtGenerador>();
+
+            services.AddScoped<IUsuarioSesion,UsuarioSesion>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

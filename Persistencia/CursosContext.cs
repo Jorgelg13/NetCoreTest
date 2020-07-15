@@ -16,6 +16,7 @@ namespace Persistencia
             //
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<CursoInstructor>().HasKey(ci => new {ci.InstructorId, ci.CursoId});
+            
         }
 
         public DbSet<Comentario> Comentario{get;set;}

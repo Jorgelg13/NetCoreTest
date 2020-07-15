@@ -7,7 +7,7 @@ namespace Persistencia
 {
     public class DataPrueba
     {
-        public  static async Task InsertarData(CursosContext context, UserManager<Usuario> UsuarioManager){
+        public static async Task InsertarData(CursosContext context, UserManager<Usuario> UsuarioManager){
             if(!UsuarioManager.Users.Any()){
                 var usuario = new Usuario{
                     NombreCompleto ="Jorge Laj",
