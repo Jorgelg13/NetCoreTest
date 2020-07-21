@@ -1,6 +1,6 @@
 namespace Aplicacion.Contratos
 {
-    public class IUsuarioSesion
+    public interface IUsuarioSesion
     {
          string ObtenerUsuarioSesion();
     }

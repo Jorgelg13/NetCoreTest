@@ -75,7 +75,7 @@ namespace WebAPI
             });
             //inyectando interfaz y clase para seguridad
             services.AddScoped<IJwtGenerador,JwtGenerador>();
-
+            //inyectando interfaz para obtener el usuario en session
             services.AddScoped<IUsuarioSesion,UsuarioSesion>();
         }
 
