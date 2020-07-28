@@ -79,3 +79,5 @@ C:\Users\A LIENWARE\Desktop\Proyectos\Core\WebAPI\bin\Debug\netcoreapp3.1\Seguri
 C:\Users\A LIENWARE\Desktop\Proyectos\Core\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\A LIENWARE\Desktop\Proyectos\Core\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
 C:\Users\A LIENWARE\Desktop\Proyectos\Core\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\A LIENWARE\Desktop\Proyectos\Core\WebAPI\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\A LIENWARE\Desktop\Proyectos\Core\WebAPI\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

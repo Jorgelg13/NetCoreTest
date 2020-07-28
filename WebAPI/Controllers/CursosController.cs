@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using Dominio;
 using Aplicacion.Cursos;
 using Microsoft.AspNetCore.Authorization;
+using System;
 
 namespace WebAPI.Controllers
 {
@@ -13,12 +14,12 @@ namespace WebAPI.Controllers
     public class CursosController : MiControllerBase
     {
         [HttpGet]
-        public async Task<ActionResult<List<Curso>>> GetTask(){
+        public async Task<ActionResult<List<CursoDto>>> GetTask(){
             return await Mediator.Send(new Consulta.ListaCursos());
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Curso>> Detalle(int id){
+        public async Task<ActionResult<CursoDto>> Detalle(Guid id){
             return await Mediator.Send(new ConsultaId.CursoUnico{id = id} );
         }
 

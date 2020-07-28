@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Threading;
 using System.Threading.Tasks;
@@ -16,6 +17,7 @@ namespace Aplicacion.Cursos
             public string Titulo {get; set;}
             public string Descripcion {get; set;}
             public DateTime ? FechaPublicacion {get; set;}
+            public List<Guid> ListaInstructor {get;set;}
         }
 
 
@@ -39,13 +41,28 @@ namespace Aplicacion.Cursos
 
             public async Task<Unit> Handle(Agregar request, CancellationToken cancellationToken)
             {
+                Guid _cursoId = Guid.NewGuid();
                var nuevo = new Curso{
+                   CursoId =_cursoId,
                    Titulo = request.Titulo,
                    Descripcion = request.Descripcion,
                    FechaPublicacion = request.FechaPublicacion
                };
 
                _context.Curso.Add(nuevo);
+
+               if(request.ListaInstructor != null ){
+
+                   foreach(var id in request.ListaInstructor){
+                      var cursoInstructor = new CursoInstructor{
+                           CursoId = _cursoId,
+                           InstructorId = id
+                       };
+
+                       _context.CursoInstructor.Add(cursoInstructor);
+                   }
+               }
+
                var valor = await _context.SaveChangesAsync();
 
                if(valor > 0){
