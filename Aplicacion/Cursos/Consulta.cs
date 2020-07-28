@@ -25,7 +25,12 @@ namespace Aplicacion.Cursos
             }
             public async Task<List<CursoDto>> Handle(ListaCursos request, CancellationToken cancellationToken)
             {
-                var cursos = await _context.Curso.Include(x => x.InstructorLink).ThenInclude(x => x.Instructor).ToListAsync();
+                var cursos = await _context.Curso
+                .Include(x => x.ComentarioLista)
+                .Include(x => x.PrecioPromocion)
+                .Include(x => x.InstructorLink)
+                .ThenInclude(x => x.Instructor).ToListAsync();
+
                 var cursosDto = _mapper.Map<List<Curso>, List<CursoDto>>(cursos);
                 return cursosDto;
                 //throw new System.NotImplementedException();

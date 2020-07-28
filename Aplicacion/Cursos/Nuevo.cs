@@ -18,6 +18,8 @@ namespace Aplicacion.Cursos
             public string Descripcion {get; set;}
             public DateTime ? FechaPublicacion {get; set;}
             public List<Guid> ListaInstructor {get;set;}
+            public decimal Precio {get;set;}
+            public decimal Promocion {get;set;}
         }
 
 
@@ -41,7 +43,7 @@ namespace Aplicacion.Cursos
 
             public async Task<Unit> Handle(Agregar request, CancellationToken cancellationToken)
             {
-                Guid _cursoId = Guid.NewGuid();
+               Guid _cursoId = Guid.NewGuid();
                var nuevo = new Curso{
                    CursoId =_cursoId,
                    Titulo = request.Titulo,
@@ -62,6 +64,16 @@ namespace Aplicacion.Cursos
                        _context.CursoInstructor.Add(cursoInstructor);
                    }
                }
+
+               //agregar logica para el insertar el precio del curso
+               var precioCurso = new Precio{
+                   CursoId = _cursoId,
+                   PrecioActual = request.Precio,
+                   Promocion = request.Promocion,
+                   PrecioId = Guid.NewGuid()
+               };
+
+               _context.Precio.Add(precioCurso);
 
                var valor = await _context.SaveChangesAsync();
 

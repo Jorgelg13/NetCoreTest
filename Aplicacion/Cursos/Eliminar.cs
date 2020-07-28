@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
@@ -11,7 +12,7 @@ namespace Aplicacion.Cursos
     public class Eliminar
     {
         public class EliminarCurso : IRequest{
-            public int Id {get; set;}
+            public Guid Id {get; set;}
         }
 
         public class Manejador : IRequestHandler<EliminarCurso>
@@ -24,6 +25,11 @@ namespace Aplicacion.Cursos
 
             public async Task<Unit> Handle(EliminarCurso request, CancellationToken cancellationToken)
             {
+                var instructoresDB = _context.CursoInstructor.Where(x => x.CursoId == request.Id);
+                foreach(var instructor in instructoresDB){
+                    _context.CursoInstructor.Remove(instructor);
+                }
+
                 var curso = await _context.Curso.FindAsync(request.Id);
 
                 if(curso == null){
