@@ -26,6 +26,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Persistencia;
+using Persistencia.DapperConexion;
 using Seguridad;
 using WebAPI.Middleware;
 
@@ -46,6 +47,8 @@ namespace WebAPI
             services.AddDbContext<CursosContext>(opt => {
                 opt.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
+
+            services.Configure<Conexion>(Configuration.GetSection("DefaultConnection"));
 
             services.AddMediatR(typeof(Consulta.Manejador).Assembly);
             services.AddControllers( opt => {

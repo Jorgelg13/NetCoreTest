@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "qNM6PjB9lL8lB1RBw1KTs/v3taZ4cnG4QIq9xAFrug6fQ6Sf9AxQKVIIb6dDy1TiNpteNdWQufPFNCOcp73pUw==",
+  "dgSpecHash": "2Q9sHF+rLdEpvrg/4UnSmOfu8is6mCcAzhtIlmUNznG+00Ro+BTm3VXd0OJqXDGHAeKmMlPk5nkBOUrN6yjGnA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Seguridad\\Seguridad.csproj",
+  "projectFilePath": "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Seguridad\\Seguridad.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\A LIENWARE\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\A LIENWARE\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.0\\automapper.extensions.microsoft.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\A LIENWARE\\.nuget\\packages\\dapper\\2.0.4\\dapper.2.0.4.nupkg.sha512",
     "C:\\Users\\A LIENWARE\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
     "C:\\Users\\A LIENWARE\\.nuget\\packages\\fluentvalidation.aspnetcore\\8.6.2\\fluentvalidation.aspnetcore.8.6.2.nupkg.sha512",
     "C:\\Users\\A LIENWARE\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\8.6.2\\fluentvalidation.dependencyinjectionextensions.8.6.2.nupkg.sha512",

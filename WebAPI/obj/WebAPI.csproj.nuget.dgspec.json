@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\WebAPI\\WebAPI.csproj": {}
+    "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\webAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Aplicacion\\Aplicacion.csproj": {
+    "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Aplicacion\\Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Aplicacion\\Aplicacion.csproj",
+        "projectUniqueName": "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Aplicacion\\Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Aplicacion\\Aplicacion.csproj",
+        "projectPath": "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Aplicacion\\Aplicacion.csproj",
         "packagesPath": "C:\\Users\\A LIENWARE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Aplicacion\\obj\\",
+        "outputPath": "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\A LIENWARE\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,11 +27,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Dominio\\Dominio.csproj"
+              "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Dominio\\Dominio.csproj": {
+                "projectPath": "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Dominio\\Dominio.csproj"
               },
-              "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Persistencia\\Persistencia.csproj"
+              "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -80,14 +80,14 @@
         }
       }
     },
-    "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Dominio\\Dominio.csproj": {
+    "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Dominio\\Dominio.csproj",
+        "projectPath": "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\A LIENWARE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Dominio\\obj\\",
+        "outputPath": "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\A LIENWARE\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -141,14 +141,14 @@
         }
       }
     },
-    "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Persistencia\\Persistencia.csproj": {
+    "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Persistencia\\Persistencia.csproj",
+        "projectPath": "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\A LIENWARE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Persistencia\\obj\\",
+        "outputPath": "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\A LIENWARE\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -164,8 +164,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Dominio\\Dominio.csproj"
+              "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Dominio\\Dominio.csproj": {
+                "projectPath": "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -179,6 +179,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.5, )"
@@ -214,14 +218,14 @@
         }
       }
     },
-    "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Seguridad\\Seguridad.csproj": {
+    "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Seguridad\\Seguridad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Seguridad\\Seguridad.csproj",
+        "projectUniqueName": "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Seguridad\\Seguridad.csproj",
         "projectName": "Seguridad",
-        "projectPath": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Seguridad\\Seguridad.csproj",
+        "projectPath": "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Seguridad\\Seguridad.csproj",
         "packagesPath": "C:\\Users\\A LIENWARE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Seguridad\\obj\\",
+        "outputPath": "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Seguridad\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\A LIENWARE\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -237,8 +241,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Aplicacion\\Aplicacion.csproj": {
-                "projectPath": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Aplicacion\\Aplicacion.csproj"
+              "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Aplicacion\\Aplicacion.csproj": {
+                "projectPath": "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Aplicacion\\Aplicacion.csproj"
               }
             }
           }
@@ -279,14 +283,14 @@
         }
       }
     },
-    "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\WebAPI\\WebAPI.csproj": {
+    "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\webAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\webAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\WebAPI\\WebAPI.csproj",
+        "projectPath": "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\webAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\A LIENWARE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\WebAPI\\obj\\",
+        "outputPath": "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\webAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\A LIENWARE\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -302,11 +306,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Aplicacion\\Aplicacion.csproj": {
-                "projectPath": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Aplicacion\\Aplicacion.csproj"
+              "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Aplicacion\\Aplicacion.csproj": {
+                "projectPath": "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Aplicacion\\Aplicacion.csproj"
               },
-              "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Seguridad\\Seguridad.csproj": {
-                "projectPath": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Seguridad\\Seguridad.csproj"
+              "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Seguridad\\Seguridad.csproj": {
+                "projectPath": "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Seguridad\\Seguridad.csproj"
               }
             }
           }

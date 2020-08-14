@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Dominio\\Dominio.csproj": {}
+    "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Dominio\\Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Dominio\\Dominio.csproj": {
+    "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Dominio\\Dominio.csproj",
+        "projectPath": "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\A LIENWARE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Dominio\\obj\\",
+        "outputPath": "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\A LIENWARE\\AppData\\Roaming\\NuGet\\NuGet.Config",

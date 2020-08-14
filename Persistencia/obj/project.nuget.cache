@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tecg8EbHpl1FShyPDynJ8m0T4nsK/4Fh1f5+BXQ5ZTIXrseoYNMtev7rC9MS0lLg/JGKiTn5ETfqxo9OyFqVXg==",
+  "dgSpecHash": "rDIqfkBACl0Mj1o3wCuMOxX6Jm4gQZed7FkV3lcvpyESMbk6oL2ueDOlD1BloLKu4iGEQwKj5zTCDXbMkrrdCQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Persistencia\\Persistencia.csproj",
+  "projectFilePath": "c:\\Users\\A LIENWARE\\Desktop\\Proyectos\\Core\\Persistencia\\Persistencia.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\A LIENWARE\\.nuget\\packages\\dapper\\2.0.4\\dapper.2.0.4.nupkg.sha512",
     "C:\\Users\\A LIENWARE\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.5\\microsoft.aspnetcore.cryptography.internal.3.1.5.nupkg.sha512",
     "C:\\Users\\A LIENWARE\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.5\\microsoft.aspnetcore.cryptography.keyderivation.3.1.5.nupkg.sha512",
     "C:\\Users\\A LIENWARE\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\3.1.5\\microsoft.aspnetcore.identity.entityframeworkcore.3.1.5.nupkg.sha512",
